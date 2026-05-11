@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mis peliculas favoritas</title>
+
+	<style>
+		body {
+			background-color: #ADE5FF;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			animation: mover 3s infinite alternate;
+		}
+
+		@keyframes mover {
+			from {
+				transform: translateY(0px);
+				color: black;
+			}
+			to {
+				transform: translateY(-15px);
+				color: white;
+			}
+		}
+
+		img {
+			width: 200px;
+			height: 200px;
+			transition: transform 0.3s, box-shadow 0.3s;
+			border-radius: 10px;
+		}
+
+		img:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 15px black;
+		}
+
+		table {
+			margin: auto;
+			border-collapse: collapse;
+		}
+
+		td {
+			padding: 10px;
+		}
+
+		/* MENÚ */
+		.menu {
+			margin-top: 20px;
+		}
+
+		.menu a {
+			display: inline-block;
+			margin: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			border-radius: 8px;
+			transition: 0.3s;
+			font-size: 1.2em;
+		}
+
+		.menu a:hover {
+			background-color: #ffd700;
+			color: black;
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Mis peliculas favoritas</h1>
+
+	<!-- MENÚ COMPLETO -->
+	<div class="menu">
+		<a href="Index2.html">Inicio</a>
+		<a href="Mi música.html">Música</a>
+		<a href="Peliculas.html">Películas</a>
+		<a href="Deportes.html">Deportes</a>
+		<a href="Videojuegos.html">Videojuegos</a>
+	</div>
+
+	<table border="1">
+		<tr>
+			<td><a href="#bighero">Grandes Héroes</a></td>
+			<td><a href="#spiderman">Hombre Araña 2</a></td>
+			<td><a href="#coraline">Coraline</a></td>
+			<td><a href="#sonninos">Son como niños</a></td>
+		</tr>
+
+		<tr>
+			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnKfNOLhXWt9QkBqSVz-cJ9dpAbS4Xx3pBkw&s"></td>
+			<td><img src="https://static.wikia.nocookie.net/cine/images/4/46/Hombre_Ara%C3%B1a_2_-_Amenza_de_Electro.jpg/revision/latest?cb=20201117204736"></td>
+			<td><img src="https://play-lh.googleusercontent.com/Weh0rQaeBWWEUMlbCoHYNLsCeER2KnE4n692fXlsd00CuY4pj9AoU6quqolgjPsHwVToMwUKvX-GLukHYQ=w240-h480-rw"></td>
+			<td><img src="https://m.media-amazon.com/images/M/MV5BMDJmYWI5NDctZjM5Zi00NzJiLTk4YTEtZjFhYTZhMTJiYWEzXkEyXkFqcGc@._V1_.jpg"></td>
+		</tr>
+	</table>
+
+	<h2>Resumen</h2>
+
+	<section id="bighero">
+		<h3>Grandes Héroes</h3>
+		<pre>
+Hiro crea un equipo de superhéroes con su robot Baymax para enfrentar a un villano.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ZmOKyV_A-sA" allowfullscreen></iframe>
+	</section>
+
+	<section id="spiderman">
+		<h3>El Sorprendente Hombre Araña 2</h3>
+		<pre>
+Peter Parker enfrenta a Electro y al Duende Verde mientras protege a Gwen.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/U7vjPGJ8THU" allowfullscreen></iframe>
+	</section>
+
+	<section id="coraline">
+		<h3>Coraline</h3>
+		<pre>
+Una niña descubre un mundo alterno peligroso con una “otra madre”.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/MZBDf37W3rM" allowfullscreen></iframe>
+	</section>
+
+	<section id="sonninos">
+		<h3>Son como niños</h3>
+		<pre>
+Un grupo de amigos revive su infancia tras reencontrarse años después.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/EJlI-peYPVs" allowfullscreen></iframe>
+	</section>
+
+</body>
+</html>

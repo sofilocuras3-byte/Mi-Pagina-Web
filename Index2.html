@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Yo Digital</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpapers.com/images/hd/yellow-pokemon-psyduck-0rb6hrqefy5eommi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.titulo-container {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    position: relative;
+    white-space: nowrap;
+    animation: mover 6s linear infinite;
+}
+
+@keyframes mover {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+}
+
+.menu a:hover {
+    background: yellow;
+    color: black;
+}
+
+.seccion {
+    margin: 40px auto;
+    width: 80%;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="titulo-container">
+    <h1>Mi Yo Digital</h1>
+</div>
+
+<div class="menu">
+    <a href="Index2.html">Inicio</a>
+    <a href="Mi música.html">Música</a>
+    <a href="Peliculas.html">Películas</a>
+    <a href="Deportes.html">Deportes</a>
+    <a href="Videojuegos.html">Videojuegos</a>
+</div>
+
+<div class="seccion">
+    <h2>Reseña</h2>
+    <p>Hola,soy Estefanía y esta es mi página digital ✨</p>
+</div>
+
+</body>
+</html>

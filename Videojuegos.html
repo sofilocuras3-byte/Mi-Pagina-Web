@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Videojuegos</title>
+
+	<style>
+		body {
+			background-color: #63A0FF;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			animation: mover 3s infinite alternate;
+		}
+
+		@keyframes mover {
+			from {
+				transform: translateY(0px);
+				color: black;
+			}
+			to {
+				transform: translateY(-15px);
+				color: white;
+			}
+		}
+
+		img {
+			width: 200px;
+			height: 200px;
+			transition: transform 0.3s, box-shadow 0.3s;
+			border-radius: 10px;
+		}
+
+		img:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 15px black;
+		}
+
+		table {
+			margin: auto;
+			border-collapse: collapse;
+		}
+
+		td {
+			padding: 10px;
+		}
+
+		/* MENÚ */
+		.menu {
+			margin-top: 20px;
+		}
+
+		.menu a {
+			display: inline-block;
+			margin: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			border-radius: 8px;
+			transition: 0.3s;
+			font-size: 1.2em;
+		}
+
+		.menu a:hover {
+			background-color: #ffd700;
+			color: black;
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Videojuegos</h1>
+
+	<!-- MENÚ COMPLETO -->
+	<div class="menu">
+		<a href="Index2.html">Inicio</a>
+		<a href="Mi música.html">Música</a>
+		<a href="Peliculas.html">Películas</a>
+		<a href="Deportes.html">Deportes</a>
+		<a href="Videojuegos.html">Videojuegos</a>
+	</div>
+
+	<table border="1">
+		<tr>
+			<td><a href="#luigi">Luigi's Mansion 3</a></td>
+			<td><a href="#mariokart">Mario Kart 8 Deluxe</a></td>
+			<td><a href="#cod">Call of Duty</a></td>
+			<td><a href="#minecraft">Minecraft</a></td>
+		</tr>
+
+		<tr>
+			<td><img src="https://e.snmc.io/lk/f/x/cbaeaea2a1bafaf4053889dd865eb22e/8639803"></td>
+			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsZktit8_0EBxqwc9jWuyOncramgWrV7oMoQ&s"></td>
+			<td><img src="https://play-lh.googleusercontent.com/9419FhXcPmYegBxVmuNvdtZJTXszPT56aAbF6PLjNGKr_bZXa3_RKPyJ7r595bubJ-0"></td>
+			<td><img src="https://highxtar.com/wp-content/uploads/2023/10/Thumb_Minecraft_2023_Web_Nueva-1440x1080.jpg"></td>
+		</tr>
+	</table>
+
+	<h2>Resumen</h2>
+
+	<section id="luigi">
+		<h3>Luigi's Mansion 3</h3>
+		<pre>
+Luigi explora un hotel embrujado para rescatar a sus amigos del Rey Boo.
+		</pre>
+	</section>
+
+	<section id="mariokart">
+		<h3>Mario Kart 8 Deluxe</h3>
+		<pre>
+Juego de carreras con personajes de Mario en pistas divertidas.
+		</pre>
+	</section>
+
+	<section id="cod">
+		<h3>Call of Duty</h3>
+		<pre>
+Juego de disparos en primera persona con temática bélica.
+		</pre>
+	</section>
+
+	<section id="minecraft">
+		<h3>Minecraft</h3>
+		<pre>
+Juego de construcción y supervivencia en un mundo de bloques.
+		</pre>
+	</section>
+
+</body>
+</html>

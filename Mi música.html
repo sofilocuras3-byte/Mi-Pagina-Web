@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi música</title>
+
+	<style>
+		body {
+			background-color: #61D0FF;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			animation: mover 3s infinite alternate;
+		}
+
+		@keyframes mover {
+			from {
+				transform: translateY(0px);
+				color: black;
+			}
+			to {
+				transform: translateY(-15px);
+				color: white;
+			}
+		}
+
+		img {
+			width: 200px;
+			height: 200px;
+			transition: transform 0.3s, box-shadow 0.3s;
+			border-radius: 10px;
+		}
+
+		img:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 15px black;
+		}
+
+		table {
+			margin: auto;
+			border-collapse: collapse;
+		}
+
+		td {
+			padding: 10px;
+		}
+
+		/* MENÚ */
+		.menu {
+			margin-top: 20px;
+		}
+
+		.menu a {
+			display: inline-block;
+			margin: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			border-radius: 8px;
+			transition: 0.3s;
+			font-size: 1.2em;
+		}
+
+		.menu a:hover {
+			background-color: #ffd700;
+			color: black;
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Mi música</h1>
+
+	<!-- MENÚ COMPLETO -->
+	<div class="menu">
+		<a href="Index2.html">Inicio</a>
+		<a href="Mi música.html">Música</a>
+		<a href="Peliculas.html">Películas</a>
+		<a href="Deportes.html">Deportes</a>
+		<a href="Videojuegos.html">Videojuegos</a>
+	</div>
+
+	<table border="1">
+		<tr>
+			<td><a href="#desenfocado">Desenfocado</a></td>
+			<td><a href="#babyhello">Baby Hello</a></td>
+			<td><a href="#dejameentrar">Déjame Entrar</a></td>
+			<td><a href="#corazon">Corazón Despeinado</a></td>
+		</tr>
+
+		<tr>
+			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVODLrxmSi9yOAdlqGfOBNJzvx0EQxZ8ZUQg&s"></td>
+			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqHv8Prm4lzAlLpKP572Qrq8SXa63HIu0UQ&s"></td>
+			<td><img src="https://akamai.sscdn.co/tb/next/?url=%2Fuploadfile%2Fletras%2Falbuns%2F7%2F2%2Fa%2F6%2F2441921731925206.jpg&w=3840&q=75"></td>
+			<td><img src="https://cdn-images.dzcdn.net/images/cover/5259f60788a5e038121cd398a70f09af/500x500.jpg"></td>
+		</tr>
+	</table>
+
+	<h2>Resumen</h2>
+
+	<section id="desenfocado">
+		<h3>Desenfocado</h3>
+		<pre>
+La canción 'Desenfocao' refleja la confusión emocional en medio de fiestas.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/HBdEkUgX95k" allowfullscreen></iframe>
+	</section>
+
+	<section id="babyhello">
+		<h3>Baby Hello</h3>
+		<pre>
+Habla de nostalgia y deseo de reencontrarse.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/-WevdSfpw-Q" allowfullscreen></iframe>
+	</section>
+
+	<section id="dejameentrar">
+		<h3>Déjame Entrar</h3>
+		<pre>
+Explora el deseo intenso por alguien especial.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/UUzmHevEneY" allowfullscreen></iframe>
+	</section>
+
+	<section id="corazon">
+		<h3>Corazón Despeinado</h3>
+		<pre>
+Relaciones modernas con altibajos emocionales.
+		</pre>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fqc1ADZbU10" allowfullscreen></iframe>
+	</section>
+
+</body>
+</html>

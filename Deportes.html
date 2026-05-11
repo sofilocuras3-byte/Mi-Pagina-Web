@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deportes</title>
+
+	<style>
+		body {
+			background-color: #7DC7FF;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			animation: mover 3s infinite alternate;
+		}
+
+		@keyframes mover {
+			from {
+				transform: translateY(0px);
+				color: black;
+			}
+			to {
+				transform: translateY(-15px);
+				color: white;
+			}
+		}
+
+		img {
+			width: 200px;
+			height: 200px;
+			transition: transform 0.3s, box-shadow 0.3s;
+			border-radius: 10px;
+		}
+
+		img:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 15px black;
+		}
+
+		table {
+			margin: auto;
+			border-collapse: collapse;
+		}
+
+		td {
+			padding: 10px;
+		}
+
+		/* MENÚ */
+		.menu {
+			margin-top: 20px;
+		}
+
+		.menu a {
+			display: inline-block;
+			margin: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			border-radius: 8px;
+			transition: 0.3s;
+			font-size: 1.2em;
+		}
+
+		.menu a:hover {
+			background-color: #ffd700;
+			color: black;
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Deportes</h1>
+
+	<!-- MENÚ COMPLETO -->
+	<div class="menu">
+		<a href="Index2.html">Inicio</a>
+		<a href="Mi música.html">Música</a>
+		<a href="Peliculas.html">Películas</a>
+		<a href="Deportes.html">Deportes</a>
+		<a href="Videojuegos.html">Videojuegos</a>
+	</div>
+
+	<table border="1">
+		<tr>
+			<td><a href="#basquet">Basquetbol</a></td>
+			<td><a href="#futbol">Futbol</a></td>
+			<td><a href="#taekwondo">Taekwondo</a></td>
+			<td><a href="#volleyball">Volleyball</a></td>
+		</tr>
+
+		<tr>
+			<td><img src="https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/8883bc03-1dee-43d6-a1ea-8a41e03e7857.jpeg"></td>
+			<td><img src="https://static01.nyt.com/images/2017/08/02/opinion/opiniontodayemail/02neymar1/02neymar1-superJumbo.jpg"></td>
+			<td><img src="https://i.redd.it/ap8qt5h4ecg91.jpg"></td>
+			<td><img src="https://www.fivb.com/wp-content/uploads/2026/03/102910-1.jpeg"></td>
+		</tr>
+	</table>
+
+	<h2>Información</h2>
+
+	<section id="basquet">
+		<h3>Basquetbol</h3>
+		<p>Es mi deporte favorito, me gusta porque es rápido y divertido.</p>
+	</section>
+
+	<section id="futbol">
+		<h3>Futbol</h3>
+		<p>Es uno de los deportes más populares del mundo.</p>
+	</section>
+
+	<section id="taekwondo">
+		<h3>Taekwondo</h3>
+		<p>Es un arte marcial que requiere disciplina y fuerza.</p>
+	</section>
+
+	<section id="volleyball">
+		<h3>Volleyball</h3>
+		<p>Se juega en equipo y es muy dinámico.</p>
+	</section>
+
+</body>
+</html>
